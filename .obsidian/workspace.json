@@ -41,12 +41,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Frameworks/JPA/연관관계 매핑.md",
+                "file": "Frameworks/JPA/User → Memo 양방향 설정 vs JPQL 조회, 실무에선 어떻게 할까?.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "연관관계 매핑"
+              "title": "User → Memo 양방향 설정 vs JPQL 조회, 실무에선 어떻게 할까?"
             }
           },
           {
@@ -96,7 +96,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "tag:#연관관계의",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -117,8 +117,7 @@
               "title": "북마크"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -225,8 +224,11 @@
   },
   "active": "8232115d7b7d5ad5",
   "lastOpenFiles": [
-    "index.md",
+    "Frameworks/JPA/User → Memo 양방향 설정 vs JPQL 조회, 실무에선 어떻게 할까?.md",
+    "2025-05-29.md",
+    "무제.canvas",
     "Frameworks/JPA/연관관계 매핑.md",
+    "index.md",
     "Frameworks/JPA",
     "Algorithms/위상정렬.md",
     "README.md",
