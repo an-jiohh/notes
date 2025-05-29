@@ -1,4 +1,5 @@
 {
   "strictLineBreaks": true,
-  "foldHeading": true
+  "foldHeading": true,
+  "promptDelete": false
 }

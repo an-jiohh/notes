@@ -41,12 +41,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Frameworks/JPA/User → Memo 양방향 설정 vs JPQL 조회, 실무에선 어떻게 할까?.md",
+                "file": "Frameworks/Spring/예외 처리 설계 throw vs if.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "User → Memo 양방향 설정 vs JPQL 조회, 실무에선 어떻게 할까?"
+              "title": "예외 처리 설계 throw vs if"
             }
           },
           {
@@ -224,14 +224,14 @@
   },
   "active": "8232115d7b7d5ad5",
   "lastOpenFiles": [
-    "Frameworks/JPA/User → Memo 양방향 설정 vs JPQL 조회, 실무에선 어떻게 할까?.md",
-    "2025-05-29.md",
+    "README.md",
     "무제.canvas",
-    "Frameworks/JPA/연관관계 매핑.md",
     "index.md",
+    "Frameworks/Spring/예외 처리 설계 throw vs if.md",
+    "Frameworks/JPA/User → Memo 양방향 설정 vs JPQL 조회, 실무에선 어떻게 할까?.md",
+    "Frameworks/JPA/연관관계 매핑.md",
     "Frameworks/JPA",
     "Algorithms/위상정렬.md",
-    "README.md",
     "Frameworks/Spring",
     "Frameworks",
     "Algorithms",
