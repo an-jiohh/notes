@@ -148,6 +148,20 @@
             }
           },
           {
+            "id": "6220e793f3566422",
+            "type": "leaf",
+            "state": {
+              "type": "split-diff-view",
+              "state": {
+                "aFile": "Frameworks/Spring/Spring 예외 처리 시 GlobalControllerAdvice와 LocalControllerAdvice 우선순위 문제 해결 방법.md",
+                "bFile": "Frameworks/Spring/Spring 예외 처리 시 GlobalControllerAdvice와 LocalControllerAdvice 우선순위 문제 해결 방법.md",
+                "aRef": ""
+              },
+              "icon": "diff",
+              "title": "Diff: Spring 예외 처리 시 GlobalControllerAdvice와 LocalControllerAdvice 우선순위 문제 해결 방법"
+            }
+          },
+          {
             "id": "dc7012c676272dbf",
             "type": "leaf",
             "state": {
@@ -162,7 +176,7 @@
             }
           }
         ],
-        "currentTab": 9
+        "currentTab": 10
       }
     ],
     "direction": "vertical"
@@ -320,8 +334,9 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "df37bb6cc65c29ae",
+  "active": "6220e793f3566422",
   "lastOpenFiles": [
+    "Frameworks/Spring/Spring 예외 처리 시 GlobalControllerAdvice와 LocalControllerAdvice 우선순위 문제 해결 방법.md",
     "Java/체크 예외의 문제점.md",
     "Java/체크 예외 vs 언체크 예외.md",
     "Frameworks/Spring/Spring에서 @Valid로 DTO 유효성 검증할 때 예외 처리 완전 정복.md",
