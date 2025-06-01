@@ -81,15 +81,70 @@
             "id": "e73227f2726ebf5f",
             "type": "leaf",
             "state": {
+              "type": "markdown",
+              "state": {
+                "file": "index.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "index"
+            }
+          },
+          {
+            "id": "ea307e6d793ec00d",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Java/자바 예외 처리.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "자바 예외 처리"
+            }
+          },
+          {
+            "id": "ea4ec4e1e7e783b2",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Java/체크 예외 vs 언체크 예외.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "체크 예외 vs 언체크 예외"
+            }
+          },
+          {
+            "id": "f091d94a29f75c6f",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Frameworks/Spring/예외 처리 설계 throw vs if.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "예외 처리 설계 throw vs if"
+            }
+          },
+          {
+            "id": "df37bb6cc65c29ae",
+            "type": "leaf",
+            "state": {
               "type": "split-diff-view",
               "state": {
-                "aFile": "Frameworks/Spring/request.getSession이 어떻게 세션을 생성하는지.md",
-                "bFile": "Frameworks/Spring/request.getSession이 어떻게 세션을 생성하는지.md",
-                "aRef": "HEAD",
-                "bRef": ""
+                "aFile": "Frameworks/Spring/Spring에서 @Valid로 DTO 유효성 검증할 때 예외 처리 완전 정복.md",
+                "bFile": "Frameworks/Spring/Spring에서 @Valid로 DTO 유효성 검증할 때 예외 처리 완전 정복.md",
+                "aRef": ""
               },
               "icon": "diff",
-              "title": "Diff: request.getSession이 어떻게 세션을 생성하는지"
+              "title": "Diff: Spring에서 @Valid로 DTO 유효성 검증할 때 예외 처리 완전 정복"
             }
           },
           {
@@ -107,7 +162,7 @@
             }
           }
         ],
-        "currentTab": 5
+        "currentTab": 9
       }
     ],
     "direction": "vertical"
@@ -265,17 +320,22 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "e73227f2726ebf5f",
+  "active": "df37bb6cc65c29ae",
   "lastOpenFiles": [
+    "Java/체크 예외의 문제점.md",
+    "Java/체크 예외 vs 언체크 예외.md",
+    "Frameworks/Spring/Spring에서 @Valid로 DTO 유효성 검증할 때 예외 처리 완전 정복.md",
+    "Frameworks/Spring/예외 처리 설계 throw vs if.md",
+    "Frameworks/JPA/연관관계 매핑.md",
+    "Java/자바 예외 처리.md",
+    "index.md",
+    "Java",
     "Frameworks/Spring/HttpSession.md",
     "Frameworks/Spring/request.getSession이 어떻게 세션을 생성하는지.md",
     "Frameworks/Spring/Spring HttpSession을 파라미터로 받았을때 동작 방식.md",
-    "Frameworks/Spring/예외 처리 설계 throw vs if.md",
     "README.md",
     "무제.canvas",
-    "index.md",
     "Frameworks/JPA/User → Memo 양방향 설정 vs JPQL 조회, 실무에선 어떻게 할까?.md",
-    "Frameworks/JPA/연관관계 매핑.md",
     "Frameworks/JPA",
     "Algorithms/위상정렬.md",
     "Frameworks/Spring",
