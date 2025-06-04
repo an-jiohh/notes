@@ -179,14 +179,14 @@
             "id": "f5bc67075395e0ab",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "split-diff-view",
               "state": {
-                "file": "Frameworks/JPA/무제.md",
-                "mode": "preview",
-                "source": false
+                "aFile": "Frameworks/JPA/@PersistenceContext.md",
+                "bFile": "Frameworks/JPA/@PersistenceContext.md",
+                "aRef": ""
               },
-              "icon": "lucide-file",
-              "title": "무제"
+              "icon": "diff",
+              "title": "Diff: @PersistenceContext"
             }
           }
         ],
@@ -350,7 +350,7 @@
   },
   "active": "f5bc67075395e0ab",
   "lastOpenFiles": [
-    "Frameworks/JPA/무제.md",
+    "Frameworks/JPA/@PersistenceContext.md",
     "Frameworks/Spring/Spring에서 @Valid로 DTO 유효성 검증할 때 예외 처리 완전 정복.md",
     "Frameworks/Spring/Spring 예외 처리 시 GlobalControllerAdvice와 LocalControllerAdvice 우선순위 문제 해결 방법.md",
     "Frameworks/Spring/Spring DTO 검증 어노테이션 정리.md",
