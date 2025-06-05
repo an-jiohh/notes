@@ -83,12 +83,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "index.md",
+                "file": "Frameworks/Spring/예외 처리 설계 throw vs if.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "index"
+              "title": "예외 처리 설계 throw vs if"
             }
           },
           {
@@ -378,10 +378,10 @@
   },
   "active": "5362682848840b39",
   "lastOpenFiles": [
+    "index.md",
+    "Frameworks/JPA/flush 자동 발생 시점.md",
     "Frameworks/JPA/JPA JPQL은 엔티티의 필드와 관계를 기준으로 설정해야한다..md",
     "Frameworks/JPA/연관관계 매핑.md",
-    "Frameworks/JPA/flush 자동 발생 시점.md",
-    "index.md",
     "Frameworks/JPA/@PersistenceContext.md",
     "Frameworks/Spring/Spring에서 @Valid로 DTO 유효성 검증할 때 예외 처리 완전 정복.md",
     "Frameworks/Spring/Spring 예외 처리 시 GlobalControllerAdvice와 LocalControllerAdvice 우선순위 문제 해결 방법.md",
