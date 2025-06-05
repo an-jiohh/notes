@@ -195,16 +195,30 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Frameworks/JPA/flush 발생 시점.md",
+                "file": "Frameworks/JPA/연관관계 매핑.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "flush 발생 시점"
+              "title": "연관관계 매핑"
+            }
+          },
+          {
+            "id": "5362682848840b39",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "JPQL.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "JPQL"
             }
           }
         ],
-        "currentTab": 13
+        "currentTab": 14
       }
     ],
     "direction": "vertical"
@@ -362,15 +376,16 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "2356dc84f9fe9a5a",
+  "active": "f34fcf1943cd05a5",
   "lastOpenFiles": [
-    "index.md",
+    "Frameworks/JPA/연관관계 매핑.md",
+    "JPQL.md",
     "Frameworks/JPA/flush 발생 시점.md",
+    "index.md",
     "Frameworks/JPA/@PersistenceContext.md",
     "Frameworks/Spring/Spring에서 @Valid로 DTO 유효성 검증할 때 예외 처리 완전 정복.md",
     "Frameworks/Spring/Spring 예외 처리 시 GlobalControllerAdvice와 LocalControllerAdvice 우선순위 문제 해결 방법.md",
     "Frameworks/Spring/Spring DTO 검증 어노테이션 정리.md",
-    "Frameworks/JPA/연관관계 매핑.md",
     "Java/체크 예외의 문제점.md",
     "Java/체크 예외 vs 언체크 예외.md",
     "Frameworks/Spring/예외 처리 설계 throw vs if.md",
