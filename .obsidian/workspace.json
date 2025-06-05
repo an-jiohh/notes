@@ -209,12 +209,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "JPQL.md",
+                "file": "Frameworks/JPA/JPA JPQL은 엔티티의 필드와 관계를 기준으로 설정해야한다..md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "JPQL"
+              "title": "JPA JPQL은 엔티티의 필드와 관계를 기준으로 설정해야한다."
             }
           }
         ],
@@ -376,10 +376,10 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "f34fcf1943cd05a5",
+  "active": "5362682848840b39",
   "lastOpenFiles": [
     "Frameworks/JPA/연관관계 매핑.md",
-    "JPQL.md",
+    "Frameworks/JPA/JPA JPQL은 엔티티의 필드와 관계를 기준으로 설정해야한다..md",
     "Frameworks/JPA/flush 발생 시점.md",
     "index.md",
     "Frameworks/JPA/@PersistenceContext.md",
