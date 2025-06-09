@@ -216,9 +216,51 @@
               "icon": "lucide-file",
               "title": "flush 자동 발생 시점"
             }
+          },
+          {
+            "id": "ec1b17864276ae78",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "ComputerScience/Jwt/Index.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Index"
+            }
+          },
+          {
+            "id": "655236fc0f254a3d",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "ComputerScience/Jwt/Index.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Index"
+            }
+          },
+          {
+            "id": "18dd7c7cb33ca8b9",
+            "type": "leaf",
+            "state": {
+              "type": "split-diff-view",
+              "state": {
+                "aFile": "ComputerScience/Jwt/JWT 전체 흐름.md",
+                "bFile": "ComputerScience/Jwt/JWT 전체 흐름.md",
+                "aRef": ""
+              },
+              "icon": "diff",
+              "title": "Diff: JWT 전체 흐름"
+            }
           }
         ],
-        "currentTab": 14
+        "currentTab": 17
       }
     ],
     "direction": "vertical"
@@ -376,10 +418,26 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "5362682848840b39",
+  "active": "18dd7c7cb33ca8b9",
   "lastOpenFiles": [
-    "index.md",
+    "ComputerScience/Jwt/Index.md",
+    "ComputerScience/Jwt/JWT 서명 방식 (alg 종류).md",
+    "ComputerScience/Jwt/JWT 구조.md",
+    "ComputerScience/Jwt/클라이언트가 JWT를 저장하는 위치 (LocalStorage vs Cookie).md",
+    "ComputerScience/Jwt/Authorization 헤더 사용 방식 (Bearer token).md",
+    "ComputerScience/Jwt/대칭키(HMAC) vs 비대칭키(RSA, ECDSA) 방식.md",
+    "ComputerScience/Jwt/토큰 발급 시 필요한 정보.md",
+    "ComputerScience/Jwt/JWT의 인코딩 방식 (Base64Url).md",
+    "ComputerScience/Jwt/JWT란 무엇인가?.md",
+    "ComputerScience/Jwt/JWT가 필요한 이유.md",
+    "ComputerScience/Jwt/JWT vs 세션 방식 인증.md",
+    "ComputerScience/Jwt/JWT 전체 흐름.md",
+    "무제.md",
+    "README.md",
+    "ComputerScience/Jwt/무.md",
     "Frameworks/JPA/flush 자동 발생 시점.md",
+    "ComputerScience/Jwt",
+    "index.md",
     "Frameworks/JPA/JPA JPQL은 엔티티의 필드와 관계를 기준으로 설정해야한다..md",
     "Frameworks/JPA/연관관계 매핑.md",
     "Frameworks/JPA/@PersistenceContext.md",
@@ -389,16 +447,9 @@
     "Java/체크 예외의 문제점.md",
     "Java/체크 예외 vs 언체크 예외.md",
     "Frameworks/Spring/예외 처리 설계 throw vs if.md",
-    "Java/자바 예외 처리.md",
     "Java",
-    "Frameworks/Spring/HttpSession.md",
-    "Frameworks/Spring/request.getSession이 어떻게 세션을 생성하는지.md",
-    "Frameworks/Spring/Spring HttpSession을 파라미터로 받았을때 동작 방식.md",
-    "README.md",
     "무제.canvas",
-    "Frameworks/JPA/User → Memo 양방향 설정 vs JPQL 조회, 실무에선 어떻게 할까?.md",
     "Frameworks/JPA",
-    "Algorithms/위상정렬.md",
     "Frameworks/Spring",
     "Frameworks",
     "Algorithms",
