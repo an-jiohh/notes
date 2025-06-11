@@ -18,7 +18,6 @@
 - [[대칭키(HMAC) vs 비대칭키(RSA, ECDSA) 방식]]
 - [[JWT 서명 방식 (alg 종류)]]
 
-  
 
 #### 4. JWT의 사용 흐름
 
@@ -28,15 +27,16 @@
 
 
 #### 5. JWT의 유효성 검증
-
-- 토큰 유효 기간 확인 (exp)
+- [[유효성 검증이 필요한 이유]]
+- [[토큰 유효 기간 확인 (exp)]]
+- [[서명 검증]]
+- [[토큰 무효화 방법의 한계 (ex 로그아웃 처리)]]
     
-- 서명 검증
-    
-- 토큰 무효화 방법의 한계 (ex: 로그아웃 처리)
-    
-
-  
+#### 6. Access Token vs Refresh Token
+- [[Access Token, Refresh Token이 왜 필요한가]]
+- [[Token의 보관 방법]]
+- [[재발급 흐름]]
+- [[왜 공식문서에는 Authorization헤더로 전송하는 것을 기반으로 되어 있는가?]]
 
 #### 6. 보안 고려사항
 
@@ -51,13 +51,7 @@
 
   
 
-#### 8. Access Token vs Refresh Token
 
-- Access Token의 역할
-    
-- Refresh Token의 역할과 보관 방법
-    
-- 재발급 흐름
 
   
 
