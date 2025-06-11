@@ -249,18 +249,32 @@
             "id": "18dd7c7cb33ca8b9",
             "type": "leaf",
             "state": {
-              "type": "split-diff-view",
+              "type": "markdown",
               "state": {
-                "aFile": "ComputerScience/Jwt/JWT 전체 흐름.md",
-                "bFile": "ComputerScience/Jwt/JWT 전체 흐름.md",
-                "aRef": ""
+                "file": "Algorithms/위상정렬.md",
+                "mode": "source",
+                "source": false
               },
-              "icon": "diff",
-              "title": "Diff: JWT 전체 흐름"
+              "icon": "lucide-file",
+              "title": "위상정렬"
+            }
+          },
+          {
+            "id": "7d2cb029e3f833bf",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Algorithms/Union-Find.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Union-Find"
             }
           }
         ],
-        "currentTab": 17
+        "currentTab": 18
       }
     ],
     "direction": "vertical"
@@ -418,8 +432,10 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "18dd7c7cb33ca8b9",
+  "active": "7d2cb029e3f833bf",
   "lastOpenFiles": [
+    "Algorithms/위상정렬.md",
+    "Algorithms/Union-Find.md",
     "ComputerScience/Jwt/Index.md",
     "ComputerScience/Jwt/JWT 서명 방식 (alg 종류).md",
     "ComputerScience/Jwt/JWT 구조.md",
@@ -432,7 +448,6 @@
     "ComputerScience/Jwt/JWT가 필요한 이유.md",
     "ComputerScience/Jwt/JWT vs 세션 방식 인증.md",
     "ComputerScience/Jwt/JWT 전체 흐름.md",
-    "무제.md",
     "README.md",
     "ComputerScience/Jwt/무.md",
     "Frameworks/JPA/flush 자동 발생 시점.md",
@@ -446,7 +461,6 @@
     "Frameworks/Spring/Spring DTO 검증 어노테이션 정리.md",
     "Java/체크 예외의 문제점.md",
     "Java/체크 예외 vs 언체크 예외.md",
-    "Frameworks/Spring/예외 처리 설계 throw vs if.md",
     "Java",
     "무제.canvas",
     "Frameworks/JPA",
