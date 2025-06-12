@@ -181,12 +181,12 @@
             "state": {
               "type": "split-diff-view",
               "state": {
-                "aFile": "ComputerScience/Jwt/Refresh Token 구성 방식.md",
-                "bFile": "ComputerScience/Jwt/Refresh Token 구성 방식.md",
+                "aFile": "ComputerScience/Jwt/OAuth의 등장 배경과 탄생 이유.md",
+                "bFile": "ComputerScience/Jwt/OAuth의 등장 배경과 탄생 이유.md",
                 "aRef": ""
               },
               "icon": "diff",
-              "title": "Diff: Refresh Token 구성 방식"
+              "title": "Diff: OAuth의 등장 배경과 탄생 이유"
             }
           },
           {
@@ -434,13 +434,15 @@
   },
   "active": "f5bc67075395e0ab",
   "lastOpenFiles": [
-    "ComputerScience/Jwt/Refresh Token 구성 방식.md",
+    "ComputerScience/Jwt/OAuth의 등장 배경과 탄생 이유.md",
     "ComputerScience/Jwt/Index.md",
+    "ComputerScience/Jwt/HttpOnly + cookie 사용시 재발급 흐름.md",
+    "ComputerScience/Jwt/OAuth 기반 로그인 - OpenID Connect(OIDC).md",
+    "ComputerScience/Jwt/Refresh Token 구성 방식.md",
     "ComputerScience/Jwt/JWT 구조.md",
     "ComputerScience/Jwt/토큰 탈취 방지 - CSRF.md",
     "ComputerScience/Jwt/토큰 탈취 방지 - XSS.md",
     "ComputerScience/Jwt/Token의 보관 방법.md",
-    "ComputerScience/Jwt/HttpOnly + cookie 사용시 재발급 흐름.md",
     "ComputerScience/Jwt/재발급 흐름.md",
     "ComputerScience/Jwt/Authorization 헤더 사용 방식 (Bearer token).md",
     "ComputerScience/Jwt/대칭키(HMAC) vs 비대칭키(RSA, ECDSA) 방식.md",
@@ -458,8 +460,6 @@
     "Algorithms/위상정렬.md",
     "ComputerScience/Jwt/JWT 서명 방식 (alg 종류).md",
     "ComputerScience/Jwt/클라이언트가 JWT를 저장하는 위치 (LocalStorage vs Cookie).md",
-    "ComputerScience/Jwt/토큰 발급 시 필요한 정보.md",
-    "ComputerScience/Jwt/JWT의 인코딩 방식 (Base64Url).md",
     "ComputerScience/Jwt",
     "Java",
     "무제.canvas",
