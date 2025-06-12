@@ -41,13 +41,15 @@
 
 #### 6. 보안 고려사항
 
-- 토큰 탈취 방지 (XSS, CSRF)
+- [[토큰 탈취 방지 - XSS]]
     
 - HTTPS 필수
     
 - 토큰 저장 위치에 따른 보안 대책
     
 - 짧은 만료 시간과 Refresh Token 사용 전략
+
+- JWT 키 로테이션 전략
 
   
 
@@ -61,5 +63,4 @@
     
 - 토큰 블랙리스트 처리 방식
     
-- Stateless 인증과 Authorization Server 개념
-- JWT 키 로테이션 전략
+- Stateless 인증과 Authorization Server 개

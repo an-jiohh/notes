@@ -181,12 +181,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "ComputerScience/Jwt/HttpOnly + cookie 사용시 재발급 흐름.md",
+                "file": "ComputerScience/Jwt/토큰 탈취 방지 - XSS.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "HttpOnly + cookie 사용시 재발급 흐름"
+              "title": "토큰 탈취 방지 - XSS"
             }
           },
           {
@@ -432,16 +432,17 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "f5bc67075395e0ab",
+  "active": "dbb1c6ce65b3b290",
   "lastOpenFiles": [
     "ComputerScience/Jwt/Index.md",
+    "ComputerScience/Jwt/토큰 탈취 방지 - XSS.md",
+    "ComputerScience/Jwt/Token의 보관 방법.md",
+    "ComputerScience/Jwt/HttpOnly + cookie 사용시 재발급 흐름.md",
     "ComputerScience/Jwt/JWT 구조.md",
     "ComputerScience/Jwt/재발급 흐름.md",
-    "ComputerScience/Jwt/HttpOnly + cookie 사용시 재발급 흐름.md",
     "ComputerScience/Jwt/Authorization 헤더 사용 방식 (Bearer token).md",
     "ComputerScience/Jwt/대칭키(HMAC) vs 비대칭키(RSA, ECDSA) 방식.md",
     "ComputerScience/Jwt/서명 검증.md",
-    "ComputerScience/Jwt/Token의 보관 방법.md",
     "ComputerScience/Jwt/왜 공식문서에는 Authorization헤더로 전송하는 것을 기반으로 되어 있는가?.md",
     "Algorithms/Union-Find.md",
     "Frameworks/JPA/@PersistenceContext.md",
@@ -459,7 +460,6 @@
     "ComputerScience/Jwt/JWT의 인코딩 방식 (Base64Url).md",
     "ComputerScience/Jwt/JWT란 무엇인가?.md",
     "ComputerScience/Jwt/JWT가 필요한 이유.md",
-    "ComputerScience/Jwt/JWT vs 세션 방식 인증.md",
     "ComputerScience/Jwt",
     "Java",
     "무제.canvas",
