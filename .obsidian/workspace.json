@@ -181,8 +181,8 @@
             "state": {
               "type": "split-diff-view",
               "state": {
-                "aFile": "Refresh Token 구성 방식.md",
-                "bFile": "Refresh Token 구성 방식.md",
+                "aFile": "ComputerScience/Jwt/Refresh Token 구성 방식.md",
+                "bFile": "ComputerScience/Jwt/Refresh Token 구성 방식.md",
                 "aRef": ""
               },
               "icon": "diff",
@@ -432,7 +432,7 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "dbb1c6ce65b3b290",
+  "active": "f5bc67075395e0ab",
   "lastOpenFiles": [
     "ComputerScience/Jwt/Refresh Token 구성 방식.md",
     "ComputerScience/Jwt/Index.md",
