@@ -36,6 +36,7 @@
 - [[Access Token, Refresh Token이 왜 필요한가]]
 - [[Token의 보관 방법]]
 - [[재발급 흐름]]
+- [[HttpOnly + cookie 사용시 재발급 흐름]]
 - [[왜 공식문서에는 Authorization헤더로 전송하는 것을 기반으로 되어 있는가?]]
 
 #### 6. 보안 고려사항
