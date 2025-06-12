@@ -181,12 +181,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "ComputerScience/Jwt/토큰 탈취 방지 - XSS.md",
+                "file": "ComputerScience/Jwt/토큰 탈취 방지 - CSRF.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "토큰 탈취 방지 - XSS"
+              "title": "토큰 탈취 방지 - CSRF"
             }
           },
           {
@@ -432,9 +432,10 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "dbb1c6ce65b3b290",
+  "active": "f5bc67075395e0ab",
   "lastOpenFiles": [
     "ComputerScience/Jwt/Index.md",
+    "ComputerScience/Jwt/토큰 탈취 방지 - CSRF.md",
     "ComputerScience/Jwt/토큰 탈취 방지 - XSS.md",
     "ComputerScience/Jwt/Token의 보관 방법.md",
     "ComputerScience/Jwt/HttpOnly + cookie 사용시 재발급 흐름.md",
@@ -459,7 +460,6 @@
     "ComputerScience/Jwt/토큰 발급 시 필요한 정보.md",
     "ComputerScience/Jwt/JWT의 인코딩 방식 (Base64Url).md",
     "ComputerScience/Jwt/JWT란 무엇인가?.md",
-    "ComputerScience/Jwt/JWT가 필요한 이유.md",
     "ComputerScience/Jwt",
     "Java",
     "무제.canvas",
