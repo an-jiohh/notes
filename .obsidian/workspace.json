@@ -347,14 +347,14 @@
             "id": "d60582af903dde34",
             "type": "leaf",
             "state": {
-              "type": "split-diff-view",
+              "type": "markdown",
               "state": {
-                "aFile": "Algorithms/MST(최소 비용 신장 트리).md",
-                "bFile": "Algorithms/MST(최소 비용 신장 트리).md",
-                "aRef": ""
+                "file": "Algorithms/Prim 알고리즘.md",
+                "mode": "source",
+                "source": false
               },
-              "icon": "diff",
-              "title": "Diff: MST(최소 비용 신장 트리)"
+              "icon": "lucide-file",
+              "title": "Prim 알고리즘"
             }
           }
         ],
@@ -518,8 +518,9 @@
   },
   "active": "d60582af903dde34",
   "lastOpenFiles": [
-    "Algorithms/Kruskal 알고리즘.md",
     "Algorithms/MST(최소 비용 신장 트리).md",
+    "Algorithms/Kruskal 알고리즘.md",
+    "Algorithms/Prim 알고리즘.md",
     "Algorithms/위상정렬.md",
     "Frameworks/Spring/Jackson ObjcetMapper.md",
     "ComputerScience/Hashing in Passwords and Tokens - Different Purposes, Different Practices.md",
@@ -543,7 +544,6 @@
     "ComputerScience/Jwt/서명 검증.md",
     "ComputerScience/Jwt/왜 공식문서에는 Authorization헤더로 전송하는 것을 기반으로 되어 있는가?.md",
     "Algorithms/Union-Find.md",
-    "Frameworks/JPA/@PersistenceContext.md",
     "ComputerScience/Jwt",
     "Java",
     "무제.canvas",
