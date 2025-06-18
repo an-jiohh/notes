@@ -347,14 +347,14 @@
             "id": "d60582af903dde34",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "split-diff-view",
               "state": {
-                "file": "Algorithms/MST(최소 비용 신장 트리).md",
-                "mode": "source",
-                "source": false
+                "aFile": "Algorithms/MST(최소 비용 신장 트리).md",
+                "bFile": "Algorithms/MST(최소 비용 신장 트리).md",
+                "aRef": ""
               },
-              "icon": "lucide-file",
-              "title": "MST(최소 비용 신장 트리)"
+              "icon": "diff",
+              "title": "Diff: MST(최소 비용 신장 트리)"
             }
           }
         ],
@@ -516,8 +516,9 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "dbb1c6ce65b3b290",
+  "active": "d60582af903dde34",
   "lastOpenFiles": [
+    "Algorithms/Kruskal 알고리즘.md",
     "Algorithms/MST(최소 비용 신장 트리).md",
     "Algorithms/위상정렬.md",
     "Frameworks/Spring/Jackson ObjcetMapper.md",
@@ -543,7 +544,6 @@
     "ComputerScience/Jwt/왜 공식문서에는 Authorization헤더로 전송하는 것을 기반으로 되어 있는가?.md",
     "Algorithms/Union-Find.md",
     "Frameworks/JPA/@PersistenceContext.md",
-    "README.md",
     "ComputerScience/Jwt",
     "Java",
     "무제.canvas",
