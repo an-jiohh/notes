@@ -333,18 +333,32 @@
             "id": "d0e69dd3629c7536",
             "type": "leaf",
             "state": {
-              "type": "split-diff-view",
+              "type": "markdown",
               "state": {
-                "aFile": "ComputerScience/Hashing in Passwords and Tokens.md",
-                "bFile": "ComputerScience/Hashing in Passwords and Tokens.md",
-                "aRef": ""
+                "file": "Algorithms/위상정렬.md",
+                "mode": "preview",
+                "source": false
               },
-              "icon": "diff",
-              "title": "Diff: Hashing in Passwords and Tokens"
+              "icon": "lucide-file",
+              "title": "위상정렬"
+            }
+          },
+          {
+            "id": "d60582af903dde34",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Algorithms/MST(최소 비용 신장 트리).md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "MST(최소 비용 신장 트리)"
             }
           }
         ],
-        "currentTab": 23
+        "currentTab": 24
       }
     ],
     "direction": "vertical"
@@ -502,11 +516,13 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "d0e69dd3629c7536",
+  "active": "dbb1c6ce65b3b290",
   "lastOpenFiles": [
+    "Algorithms/MST(최소 비용 신장 트리).md",
+    "Algorithms/위상정렬.md",
+    "Frameworks/Spring/Jackson ObjcetMapper.md",
     "ComputerScience/Hashing in Passwords and Tokens - Different Purposes, Different Practices.md",
     "ComputerScience/해시를 이용한 로그인 보안 개선.md",
-    "Frameworks/Spring/Jackson ObjcetMapper.md",
     "Frameworks/Spring/Spring 예외 처리 시 GlobalControllerAdvice와 LocalControllerAdvice 우선순위 문제 해결 방법.md",
     "ComputerScience/Jwt/재발급 흐름.md",
     "ComputerScience/Jwt/JWT 구조.md",
@@ -528,8 +544,6 @@
     "Algorithms/Union-Find.md",
     "Frameworks/JPA/@PersistenceContext.md",
     "README.md",
-    "Token의 보관 방법.md",
-    "왜 공식문서에는 Authorization헤더로 전송하는 것을 기반으로 되어 있는가?.md",
     "ComputerScience/Jwt",
     "Java",
     "무제.canvas",
