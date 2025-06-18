@@ -39,6 +39,7 @@
 - [[HttpOnly + cookie 사용시 재발급 흐름]]
 - [[왜 공식문서에는 Authorization헤더로 전송하는 것을 기반으로 되어 있는가?]]
 - [[Refresh Token 구성 방식]]
+- [[Refresh Token 저장시 Repository 구성]]
 
 #### 7. 보안 고려사항
 - [[토큰 탈취 방지 - XSS]]
