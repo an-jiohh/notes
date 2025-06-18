@@ -349,12 +349,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Algorithms/Prim 알고리즘.md",
-                "mode": "source",
+                "file": "Frameworks/Spring Security/SecurityContextHolder.md",
+                "mode": "preview",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Prim 알고리즘"
+              "title": "SecurityContextHolder"
             }
           }
         ],
@@ -518,9 +518,11 @@
   },
   "active": "d60582af903dde34",
   "lastOpenFiles": [
-    "Algorithms/MST(최소 비용 신장 트리).md",
     "Algorithms/Kruskal 알고리즘.md",
+    "Frameworks/Spring Security/SecurityContextHolder.md",
+    "Frameworks/Spring Security",
     "Algorithms/Prim 알고리즘.md",
+    "Algorithms/MST(최소 비용 신장 트리).md",
     "Algorithms/위상정렬.md",
     "Frameworks/Spring/Jackson ObjcetMapper.md",
     "ComputerScience/Hashing in Passwords and Tokens - Different Purposes, Different Practices.md",
@@ -543,7 +545,6 @@
     "ComputerScience/Jwt/대칭키(HMAC) vs 비대칭키(RSA, ECDSA) 방식.md",
     "ComputerScience/Jwt/서명 검증.md",
     "ComputerScience/Jwt/왜 공식문서에는 Authorization헤더로 전송하는 것을 기반으로 되어 있는가?.md",
-    "Algorithms/Union-Find.md",
     "ComputerScience/Jwt",
     "Java",
     "무제.canvas",
