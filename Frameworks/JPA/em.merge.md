@@ -79,4 +79,75 @@ SomeEntity managed = em.merge(detachedEntity);
 - 굳이 merge()하지 않고도 트랜잭션 안에서 persist한 객체는 그대로 쓰는 게 낫습니다.
     
 - 실수로 new 객체를 merge()하면 예상치 못한 insert가 일어날 수 있으므로 주의해야 합니다.
+
+---
+
+## 실행시 DB조회 여부
+
+#### **1. 기존에 존재하는 ID (DB에 해당 PK가 있음)**
+
+```
+Member detached = new Member();
+detached.setId(1L);
+detached.setName("홍길동");
+em.merge(detached);
+```
+
+이 경우:
+
+- merge()는 id = 1L인 엔티티가 **DB에 실제로 존재하는지 확인하기 위해 SELECT 쿼리를 수행**
     
+- **DB에서 기존 데이터를 조회한 후**, 그 값과 detached 객체의 값을 병합
+    
+- 최종적으로는 **managed 객체를 반환하고**, 변경된 값이 있으면 update가 나감
+    
+
+즉, **DB 조회 O → UPDATE 쿼리**
+
+#### **2. ID는 있지만 DB에 없음 (없는 PK로 merge 시도)**
+
+```
+Member detached = new Member();
+detached.setId(9999L);  // 존재하지 않는 ID
+detached.setName("홍길동");
+em.merge(detached);
+```
+
+이 경우:
+
+- SELECT로 먼저 조회함 → **조회 결과 없음**
+    
+- JPA는 “이건 새로운 엔티티인가 보다”라고 판단하고
+    
+- INSERT를 시도함 (실제로 DB에 없는 ID지만 강제 삽입)
+    
+
+  
+
+즉, **DB 조회 O → INSERT 쿼리**
+
+#### **3. ID가 없는 경우 (즉,** **@Id == null)**
+
+```
+Member detached = new Member();
+detached.setName("홍길동");
+em.merge(detached);
+```
+
+이 경우:
+
+- ID가 없으므로 DB 조회 없이 바로 새로 삽입함
+    
+- 즉, persist()와 유사한 동작을 함
+    
+
+  
+
+즉, **DB 조회 X → INSERT 쿼리**
+#### **요약**
+
+| **상황**       | **DB 조회 (SELECT)** | **결과 쿼리** |
+| ------------ | ------------------ | --------- |
+| 존재하는 ID      | O                  | UPDATE    |
+| 없는 ID        | O                  | INSERT    |
+| ID 없음 (null) | X                  | INSERT    |
