@@ -27,7 +27,21 @@ Prim 알고리즘은 하나의 정점에서 출발하여, **아직 방문하지 
         
     
 4. 모든 정점이 연결될 때까지 반복
-    
+
+#### Sudo Code
+1. visited 변수 설정
+2. heap 리스트 생성  
+	입력값 = (가중치, 다음 노드), **heap에서 정렬되기 위해서 가중치를 먼저 입력해야함**
+3. 가중치 저장할 배열 생성
+4. 출발노드바탕으로 진행가능한 노드를 모두 힙에 삽입
+5. while queue:
+6. 힙에서 노드를 꺼냄
+7. 꺼낸 노드가 방문을 안했는지 판별
+8. 방문 표시
+9. 가중치를 가중치 합 변수에 추가
+10. 다음 진행할 노드 탐색
+11. 다음 진행할 노드가 방문처리가 안되어 있다면
+12. 힙에 정해진 양식에 맞추어 추가
 
 ---
 
@@ -61,9 +75,12 @@ def prim(V, graph, start=1):
     total_cost = 0
 
     # 시작 노드에서 연결된 간선들을 힙에 추가
-    visited[start] = True
-    for to, weight in graph[start]:
-        heapq.heappush(min_heap, (weight, to))
+    #visited[start] = True
+    #for to, weight in graph[start]:
+    #    heapq.heappush(min_heap, (weight, to))
+
+	#개선
+	min_heap = [0, start]
 
     while min_heap:
         weight, node = heapq.heappop(min_heap)
