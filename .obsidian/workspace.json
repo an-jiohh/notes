@@ -370,9 +370,23 @@
               "icon": "lucide-file",
               "title": "Prim 알고리즘"
             }
+          },
+          {
+            "id": "f8dfaa08eab8b65a",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Frameworks/JPA/em.contains.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "em.contains"
+            }
           }
         ],
-        "currentTab": 25
+        "currentTab": 26
       }
     ],
     "direction": "vertical"
@@ -530,8 +544,10 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "d045db31829fb807",
+  "active": "f8dfaa08eab8b65a",
   "lastOpenFiles": [
+    "Algorithms/Prim 알고리즘.md",
+    "Frameworks/JPA/em.contains.md",
     "ComputerScience/Jwt/Refresh Token 저장시 Repository 구성.md",
     "ComputerScience/Jwt/Token의 보관 방법.md",
     "ComputerScience/Jwt/Refresh Token 구성 방식.md",
@@ -554,11 +570,9 @@
     "Frameworks/Spring Security/SecurityContextHolder.md",
     "Algorithms/Kruskal 알고리즘.md",
     "Frameworks/Spring Security",
-    "Algorithms/Prim 알고리즘.md",
     "Algorithms/MST(최소 비용 신장 트리).md",
     "Algorithms/위상정렬.md",
     "ComputerScience/해시를 이용한 로그인 보안 개선.md",
-    "Frameworks/Spring/Spring 예외 처리 시 GlobalControllerAdvice와 LocalControllerAdvice 우선순위 문제 해결 방법.md",
     "ComputerScience/Jwt",
     "Java",
     "무제.canvas",
