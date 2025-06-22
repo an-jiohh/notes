@@ -586,10 +586,11 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "dbb1c6ce65b3b290",
+  "active": "2af437bc6bfe7a6e",
   "lastOpenFiles": [
-    "ComputerScience/로그인 시 기존 refreshToken 처리 전략.md",
+    "Frameworks/Spring/예외 처리 설계 throw vs if.md",
     "Frameworks/Spring/Controller에서 Cookie를 꺼내보자.md",
+    "ComputerScience/로그인 시 기존 refreshToken 처리 전략.md",
     "Frameworks/JPA/em.merge.md",
     "Frameworks/JPA/em.contains.md",
     "Algorithms/Prim 알고리즘.md",
@@ -603,7 +604,6 @@
     "Frameworks/Spring/Spring HttpSession을 파라미터로 받았을때 동작 방식.md",
     "Frameworks/Spring/request.getSession이 어떻게 세션을 생성하는지.md",
     "Frameworks/Spring/Jackson ObjcetMapper.md",
-    "Frameworks/Spring/예외 처리 설계 throw vs if.md",
     "Frameworks/JPA/User → Memo 양방향 설정 vs JPQL 조회, 실무에선 어떻게 할까?.md",
     "Frameworks/JPA/JPA JPQL은 엔티티의 필드와 관계를 기준으로 설정해야한다..md",
     "Frameworks/JPA/flush 자동 발생 시점.md",

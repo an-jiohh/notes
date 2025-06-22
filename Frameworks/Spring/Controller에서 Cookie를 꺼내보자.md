@@ -20,6 +20,14 @@ public ResponseEntity<?> someEndpoint(@CookieValue("refreshToken") String refres
 @CookieValue(value = "refreshToken", required = false, defaultValue = "") String token
 ```
 
+**속성 상세 설명**
+
+| **속성 이름**    | **설명**                                                               |
+| ------------ | -------------------------------------------------------------------- |
+| value        | 찾을 쿠키의 이름 (생략 시 파라미터 이름이 사용됨)                                        |
+| required     | 쿠키가 필수인지 여부 (기본값은 true)<br>-  **MissingCookieValueException** 예외가 발생 |
+| defaultValue | 쿠키가 없을 때 사용할 기본값 (이 값을 설정하면 required=false처럼 동작)                     |
+
 ---
 
 ## **2.** **HttpServletRequest 사용 (로우 레벨 접근)**
