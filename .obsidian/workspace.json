@@ -475,7 +475,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "@Transactional(isolation = Isolation.SERIALIZABLE) 전체 흐름과 한계.md",
+                "file": "Frameworks/JPA/@Transactional(isolation = Isolation.SERIALIZABLE) 전체 흐름과 한계.md",
                 "mode": "source",
                 "source": false
               },
@@ -642,14 +642,15 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "8f660940c418d9b4",
+  "active": "f34fcf1943cd05a5",
   "lastOpenFiles": [
-    "@Transactional(isolation = Isolation.SERIALIZABLE) 전체 흐름과 한계.md",
+    "Frameworks/JPA/연관관계 매핑.md",
+    "Frameworks/JPA/em.merge.md",
+    "Frameworks/JPA/@Transactional(isolation = Isolation.SERIALIZABLE) 전체 흐름과 한계.md",
     "Algorithms/분할 정복 - 쿼드 트리.md",
     "Algorithms/분할 정복 - 개요.md",
     "Algorithms/MST(최소 비용 신장 트리).md",
     "Frameworks/JPA/Dirty Checking.md",
-    "Frameworks/JPA/em.merge.md",
     "Frameworks/Spring/Controller에서 Cookie를 꺼내보자.md",
     "Frameworks/Spring/예외 처리 설계 throw vs if.md",
     "ComputerScience/로그인 시 기존 refreshToken 처리 전략.md",
@@ -669,7 +670,6 @@
     "Frameworks/JPA/JPA JPQL은 엔티티의 필드와 관계를 기준으로 설정해야한다..md",
     "Frameworks/JPA/flush 자동 발생 시점.md",
     "Frameworks/JPA/@PersistenceContext.md",
-    "Frameworks/JPA/연관관계 매핑.md",
     "Frameworks/Spring Security",
     "ComputerScience/Jwt",
     "Java",
