@@ -510,9 +510,23 @@
               "icon": "lucide-file",
               "title": "CountDownLatch"
             }
+          },
+          {
+            "id": "1593f5efd58fe2ac",
+            "type": "leaf",
+            "state": {
+              "type": "split-diff-view",
+              "state": {
+                "aFile": "Java/synchronized.md",
+                "bFile": "Java/synchronized.md",
+                "aRef": ""
+              },
+              "icon": "diff",
+              "title": "Diff: synchronized"
+            }
           }
         ],
-        "currentTab": 35
+        "currentTab": 36
       }
     ],
     "direction": "vertical"
@@ -670,10 +684,12 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "14a571d283be93e1",
+  "active": "1593f5efd58fe2ac",
   "lastOpenFiles": [
-    "Java/ExecutorService.md",
+    "Java/서버 환경에서 synchronized의 한계점.md",
+    "Java/synchronized.md",
     "Java/CountDownLatch.md",
+    "Java/ExecutorService.md",
     "Java/체크 예외 vs 언체크 예외.md",
     "Frameworks/JPA/Dirty Checking.md",
     "Frameworks/JPA/@Transactional(isolation = Isolation.SERIALIZABLE) 전체 흐름과 한계.md",
@@ -696,8 +712,6 @@
     "Java/Hex.md",
     "Frameworks/Spring/Spring HttpSession을 파라미터로 받았을때 동작 방식.md",
     "Frameworks/Spring/request.getSession이 어떻게 세션을 생성하는지.md",
-    "Frameworks/Spring/Jackson ObjcetMapper.md",
-    "Frameworks/JPA/User → Memo 양방향 설정 vs JPQL 조회, 실무에선 어떻게 할까?.md",
     "Frameworks/Spring Security",
     "ComputerScience/Jwt",
     "Java",
