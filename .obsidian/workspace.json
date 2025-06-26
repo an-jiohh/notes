@@ -83,7 +83,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Atomic Class.md",
+                "file": "ComputerScience/동시성 제어/프로그래밍 부분에서 동시성제어/Atomic Class.md",
                 "mode": "source",
                 "source": false
               },
@@ -250,10 +250,10 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "78aadad7d5a5a799",
+  "active": "dbb1c6ce65b3b290",
   "lastOpenFiles": [
     "ComputerScience/동시성 제어/프로그래밍 부분에서 동시성제어/Lock Object.md",
-    "Atomic Class.md",
+    "ComputerScience/동시성 제어/프로그래밍 부분에서 동시성제어/Atomic Class.md",
     "ComputerScience/동시성 제어/프로그래밍 부분에서 동시성제어/Volatile.md",
     "ComputerScience/동시성 제어/프로그래밍 부분에서 동시성제어/synchronized.md",
     "ComputerScience/동시성 제어/프로그래밍 부분에서 동시성제어/README.md",
