@@ -12,7 +12,7 @@ Atomic Class는 **원자성(Atomicity)**을 보장하여 데이터 경쟁 없이
 
 ---
 
-## **2. Atomic Class의 개념**
+## **1. Atomic Class의 개념**
 
   
 
@@ -24,16 +24,28 @@ Atomic Class는 내부적으로 **CAS(Compare-And-Swap)** 기반으로 동작하
     
 - **가시성 (Visibility):** 변수 값 변경이 모든 스레드에 즉시 반영됨 (내부적으로 volatile 사용)
 
-**CAS(Compare-And-Swap) 동작 방식**
-1. 
-2. 
-
 
 따라서 간단한 연산에 대해 synchronized 없이도 안전하게 동시성 제어 가능
 
+#### **내부 동작 원리 (CAS)**
+
+**CAS(Compare-And-Swap)**를 활용하여 다음과 같은 방식으로 원자성을 보장:
+
+1. 변수의 현재 값을 읽음
+    
+2. 예상한 값(기존 값)과 현재 값이 일치하는지 비교
+    
+3. 일치하면 새 값으로 교체
+    
+4. 실패하면 다시 시도
+    
+
+
+이 과정을 반복하면서 락 없이도 동시성 제어를 수행
+
 ---
 
-## **3. 주요 Atomic Class 종류**
+## **2. 주요 Atomic Class 종류**
 
 |**클래스**|**설명**|
 |---|---|
@@ -45,11 +57,11 @@ Atomic Class는 내부적으로 **CAS(Compare-And-Swap)** 기반으로 동작하
 
 ---
 
-## **4. 대표 사용 예시**
+## **3. 대표 사용 예시**
 
   
 
-### **4.1. AtomicInteger**
+### **3.1. AtomicInteger**
 
 ```
 private final AtomicInteger count = new AtomicInteger(0);
@@ -63,7 +75,7 @@ public int getCount() {
 }
 ```
 
-### **4.2. AtomicBoolean**
+### **3.2. AtomicBoolean**
 
 ```
 private final AtomicBoolean flag = new AtomicBoolean(false);
@@ -77,7 +89,7 @@ public boolean isEnabled() {
 }
 ```
 
-### **4.3. AtomicReference**
+### **3.3. AtomicReference**
 
 ```
 private final AtomicReference<String> ref = new AtomicReference<>("초기값");
@@ -93,28 +105,7 @@ public String getValue() {
 
 ---
 
-## **5. 내부 동작 원리 (CAS)**
-
-  
-
-**CAS(Compare-And-Swap)**를 활용하여 다음과 같은 방식으로 원자성을 보장:
-
-1. 변수의 현재 값을 읽음
-    
-2. 예상한 값(기존 값)과 현재 값이 일치하는지 비교
-    
-3. 일치하면 새 값으로 교체
-    
-4. 실패하면 다시 시도
-    
-
-  
-
-이 과정을 반복하면서 락 없이도 동시성 제어를 수행
-
----
-
-## **6. 실무 사용 시 주의사항**
+## **4. 실무 사용 시 주의사항**
 
 - 단순한 카운터, 플래그, 참조 값 교체에는 매우 유용
     
@@ -125,20 +116,18 @@ public String getValue() {
 
 ---
 
-## **7. Atomic Class와 Volatile의 차이**
+## **5. Atomic Class와 Volatile의 차이**
 
-|**항목**|volatile|**Atomic Class**|
-|---|---|---|
-|원자성|보장 안 됨|보장함 (CAS 기반)|
-|가시성|보장됨|보장됨|
-|복합 연산 지원|불가능|가능 (increment, compareAndSet 등 지원)|
-|사용 용도|단순 상태 플래그 전파|단순 변수의 안전한 연산|
+| **항목**   | volatile     | **Atomic Class**                   |
+| -------- | ------------ | ---------------------------------- |
+| 원자성      | 보장 안 됨       | 보장함 (CAS 기반)                       |
+| 가시성      | 보장됨          | 보장됨                                |
+| 복합 연산 지원 | 불가능          | 가능 (increment, compareAndSet 등 지원) |
+| 사용 용도    | 단순 상태 플래그 전파 | 단순 변수의 안전한 연산                      |
 
 ---
 
-## **8. 결론**
-
-  
+## **6. 결론**
 
 Atomic Class는:
 
