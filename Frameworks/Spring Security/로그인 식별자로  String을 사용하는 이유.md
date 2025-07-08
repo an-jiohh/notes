@@ -6,9 +6,7 @@
 
 ---
 
-  
-
-### getUsername() 의 리턴 타입은 무조건 String**
+### getUsername() 의 리턴 타입은 무조건 String
 
 - Spring Security는 로그인 식별자(username)를 String으로 처리하도록 설계됨
     
