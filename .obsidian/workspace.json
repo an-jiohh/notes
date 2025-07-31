@@ -314,9 +314,23 @@
               "icon": "lucide-file",
               "title": "비트마스크"
             }
+          },
+          {
+            "id": "08d33a47514190ed",
+            "type": "leaf",
+            "state": {
+              "type": "split-diff-view",
+              "state": {
+                "aFile": "Algorithms/트리 DP.md",
+                "bFile": "Algorithms/트리 DP.md",
+                "aRef": ""
+              },
+              "icon": "diff",
+              "title": "Diff: 트리 DP"
+            }
           }
         ],
-        "currentTab": 21
+        "currentTab": 22
       }
     ],
     "direction": "vertical"
@@ -474,12 +488,13 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "874d52798deb3f1f",
+  "active": "f34fcf1943cd05a5",
   "lastOpenFiles": [
-    "Algorithms/분할 정복 - 쿼드 트리.md",
+    "Algorithms/트리 DP.md",
+    "ComputerScience/TPS와 RPS.md",
+    "Algorithms/LCS.md",
     "Algorithms/비트마스크.md",
-    "LCS.md",
-    "TPS와 RPS.md",
+    "Algorithms/분할 정복 - 쿼드 트리.md",
     "Frameworks/Spring Security/세션 기반 vs JWT 기반에서의 Authentication.md",
     "Frameworks/Spring Security/UsernamePasswordAuthenticationToken.md",
     "Frameworks/Spring Security/OncePerRequestFilter.md",
@@ -501,7 +516,6 @@
     "ComputerScience/동시성 제어/프로그래밍 부분에서 동시성제어/Lock Object.md",
     "Frameworks/Spring/request.getSession이 어떻게 세션을 생성하는지.md",
     "Java/자바 예외 처리.md",
-    "Java/CountDownLatch.md",
     "ComputerScience/동시성 제어/분산 환경에서 동시성제어",
     "ComputerScience/동시성 제어/프로그래밍 부분에서 동시성제어",
     "ComputerScience/동시성 제어",
