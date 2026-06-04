@@ -1,0 +1,28 @@
+# macOS
+.DS_Store
+
+# VS Code
+.vscode/
+
+# Obsidian
+.obsidian/workspace.json
+.obsidian/workspace
+.obsidian/plugins/
+.obsidian/themes/
+.obsidian/snippets/
+
+# Logs
+*.log
+
+# Temporary files
+*.tmp
+*.temp
+~*
+
+# Backup files
+*.bak
+*.swp
+*.swo
+
+# Ignore generated files
+Thumbs.db
